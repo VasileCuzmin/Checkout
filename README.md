@@ -5,6 +5,7 @@
 
 ![image](https://user-images.githubusercontent.com/40390118/151759559-1a1abc36-b069-47d5-a8da-d75ae2196291.png)
 
+I choose to go with some DDD practices like aggregates and entities, invariants, factories and Event Sourcing. I used building bloks(abstractions) from https://github.com/VCuzmin/nbb.
 
 1. Setup your connetion to the DB in connection string from Checkout.Migrations, Checnkout.Api and Checkout.Worker
 2. Run the migrations project
