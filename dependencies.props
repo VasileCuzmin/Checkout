@@ -1,0 +1,29 @@
+<Project>
+	<PropertyGroup Label="Package Versions">
+		<NBBPackagesVersion>5.3.1</NBBPackagesVersion>
+		<NBBExtrasPackagesVersion>4.3.3</NBBExtrasPackagesVersion>
+		<NewtonsoftJsonPackageVersion>12.0.3</NewtonsoftJsonPackageVersion>
+		<MediatRPackageVersion>9.0.0</MediatRPackageVersion>
+		<ScrutorPackageVersion>3.3.0</ScrutorPackageVersion>
+		<BenchmarkDotNetPackageVersion>0.12.1</BenchmarkDotNetPackageVersion>
+		<MoqPackageVersion>4.15.2</MoqPackageVersion>
+		<XunitPackageVersion>2.4.1</XunitPackageVersion>
+		<XunitRunnerVisualStudioPackageVersion>2.4.3</XunitRunnerVisualStudioPackageVersion>
+		<MicrosoftNetTestSdkPackageVersion>16.9.1</MicrosoftNetTestSdkPackageVersion>
+		<FluentAssertionsPackageVersion>6.1.0</FluentAssertionsPackageVersion>
+		<MicrosoftExtensionsPackagesVersion>5.0.0</MicrosoftExtensionsPackagesVersion>
+		<MicrosoftEntityFrameworkPackagesVersion>5.0.0</MicrosoftEntityFrameworkPackagesVersion>
+		<MicrosoftCSharpPackageVersion>4.7.0</MicrosoftCSharpPackageVersion>
+		<SerilogPackageVersion>2.10.0</SerilogPackageVersion>
+		<SerilogExtensionsLoggingPackageVersion>3.0.1</SerilogExtensionsLoggingPackageVersion>
+		<SerilogSinksMSSqlServerPackageVersion>5.6.0</SerilogSinksMSSqlServerPackageVersion>
+		<SerilogSinksConsolePackageVersion>3.1.1</SerilogSinksConsolePackageVersion>
+		<SerilogAspNetCorePackageVersion>4.0.0</SerilogAspNetCorePackageVersion>
+		<OpenTracingContribPackageVersion>0.7.1</OpenTracingContribPackageVersion>
+		<JaegerPackageVersion>0.4.3</JaegerPackageVersion>
+		<HellangMiddlewareProblemDetailsPackageVersion>5.1.1</HellangMiddlewareProblemDetailsPackageVersion>
+		<AutoMapperPackageVersion>10.1.1</AutoMapperPackageVersion>
+		<AutoMapperExtensionsPackageVersion>8.1.1</AutoMapperExtensionsPackageVersion>
+		<FluentValidationPackageVersion>9.5.2</FluentValidationPackageVersion>
+	</PropertyGroup>
+</Project>

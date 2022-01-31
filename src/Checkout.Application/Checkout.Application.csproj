@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Queries\Runtime\**" />
+    <EmbeddedResource Remove="Queries\Runtime\**" />
+    <None Remove="Queries\Runtime\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="$(FluentValidationPackageVersion)" />
+    <PackageReference Include="NBB.Application.DataContracts" Version="$(NBBPackagesVersion)" />
+    <PackageReference Include="NBB.Messaging.Abstractions" Version="$(NBBPackagesVersion)" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="IntegrationEventHandlers\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Checkout.Domain\Checkout.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

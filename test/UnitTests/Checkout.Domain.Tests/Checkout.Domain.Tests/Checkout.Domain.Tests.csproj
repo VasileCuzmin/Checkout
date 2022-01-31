@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net5.0</TargetFramework>
+
+		<IsPackable>false</IsPackable>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="FluentAssertions" Version="$(FluentAssertionsPackageVersion)" />
+		<PackageReference Include="Microsoft.NET.Test.Sdk" Version="$(MicrosoftNetTestSdkPackageVersion)" />
+		<PackageReference Include="Moq" Version="$(MoqPackageVersion)" />
+		<PackageReference Include="xunit" Version="$(XunitPackageVersion)" />
+		<PackageReference Include="NBB.EventStore" Version="$(NBBPackagesVersion)" />
+		<PackageReference Include="xunit.runner.visualstudio" Version="$(XunitRunnerVisualStudioPackageVersion)">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+		</PackageReference>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\..\..\..\src\Checkout.Domain\Checkout.Domain.csproj" />
+	</ItemGroup>
+
+</Project>
