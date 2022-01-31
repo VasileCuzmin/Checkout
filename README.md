@@ -3,7 +3,7 @@
 
 1. Setup your connetion to the DB in connection string from Checkout.Migrations, Checnkout.Api and Checkout.Worker
 2. Run the migrations project
-3. Run these commands for setting up the nats streaming server
+3. Run these commands for setting up the nats streaming server (make sunre to have Docker For Desktop locally!)
 
       ```
       docker pull nats-streaming:latest
