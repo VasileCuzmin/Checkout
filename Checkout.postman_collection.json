@@ -1,0 +1,90 @@
+{
+	"info": {
+		"_postman_id": "d1ba603f-9fa7-48d0-a71e-02c743e1139f",
+		"name": "Checkout",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:55555/api/baskets",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"CustomerName\": \"Gigel\",\r\n    \"PaysVAT\": true\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:55555/api/baskets",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "55555",
+					"path": [
+						"api",
+						"baskets"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:55555/api/baskets/5673d4bd-3ad3-43c2-ba50-e7ea9f165201/article-line",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"GoodId\": \"C53A5D62-0101-4884-BDED-827D9E6A803E\",\r\n    \"Quantity\": 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:55555/api/baskets/5673d4bd-3ad3-43c2-ba50-e7ea9f165201/article-line",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "55555",
+					"path": [
+						"api",
+						"baskets",
+						"5673d4bd-3ad3-43c2-ba50-e7ea9f165201",
+						"article-line"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:55555/api/baskets/ef17b2b4-e798-4850-aee4-fe4c73216d7e",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:55555/api/baskets/ef17b2b4-e798-4850-aee4-fe4c73216d7e",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "55555",
+					"path": [
+						"api",
+						"baskets",
+						"ef17b2b4-e798-4850-aee4-fe4c73216d7e"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
