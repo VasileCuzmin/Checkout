@@ -18,6 +18,6 @@ I choose to go with some DDD practices like aggregates and entities, invariants,
       
  4. Start the api and the worker
  5. Open the Swagger page through http://localhost:55555/swagger
- 6. Open Checkout.postman_collection.json in Postman
+ 6. Open **Checkout.postman_collection.json** in Postman
 
 Enjoy!!
