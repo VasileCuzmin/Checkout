@@ -1,6 +1,4 @@
-﻿using Checkout.Api.Decorators;
-using Checkout.Api.Swagger;
-using Checkout.Application.Commands;
+﻿using Checkout.Application.Commands;
 using Checkout.Data;
 using FluentValidation;
 using Hellang.Middleware.ProblemDetails;
@@ -17,8 +15,11 @@ using NBB.Correlation.AspNet;
 using NBB.Domain;
 using NBB.Messaging.Abstractions;
 using System;
+using CheckoutApi;
+using CheckoutApi.Decorators;
+using CheckoutApi.Swagger;
 
-namespace Checkout.Api
+namespace CheckoutApi
 {
     public class Startup
     {

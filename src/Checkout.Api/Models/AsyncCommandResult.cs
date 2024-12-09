@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Checkout.Api.Models
+namespace CheckoutApi.Models
 {
     public class AsyncCommandResult
     {

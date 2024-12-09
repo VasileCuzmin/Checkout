@@ -1,13 +1,13 @@
-﻿using Checkout.Api.Models;
+﻿using System;
+using System.Threading.Tasks;
 using Checkout.Application.Commands;
 using Checkout.Application.Queries;
+using CheckoutApi.Models;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using NBB.Correlation;
-using System;
-using System.Threading.Tasks;
 
-namespace Checkout.Api.Controllers
+namespace CheckoutApi.Controllers
 {
     [Route("api/baskets")]
     [ApiController]

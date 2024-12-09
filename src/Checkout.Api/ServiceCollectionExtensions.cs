@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 
-namespace Checkout.Api
+namespace CheckoutApi
 {
     public static class ServiceCollectionExtensions
     {

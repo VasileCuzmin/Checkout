@@ -9,7 +9,7 @@ using Serilog.Sinks.MSSqlServer;
 using System;
 using System.IO;
 
-namespace Checkout.Api
+namespace CheckoutApi
 {
     public class Program
     {

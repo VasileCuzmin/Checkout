@@ -1,9 +1,9 @@
-﻿using MediatR;
-using NBB.Messaging.Abstractions;
-using System.Threading;
+﻿using System.Threading;
 using System.Threading.Tasks;
+using MediatR;
+using NBB.Messaging.Abstractions;
 
-namespace Checkout.Api
+namespace CheckoutApi
 {
     public class MessageBusPublisherCommandHandler : IRequestHandler<IRequest>
     {

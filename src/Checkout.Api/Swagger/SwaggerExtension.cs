@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 
-namespace Checkout.Api.Swagger
+namespace CheckoutApi.Swagger
 {
     public static class SwaggerExtension
     {

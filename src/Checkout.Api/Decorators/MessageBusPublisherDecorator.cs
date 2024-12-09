@@ -1,8 +1,8 @@
-﻿using NBB.Messaging.Abstractions;
-using System.Threading;
+﻿using System.Threading;
 using System.Threading.Tasks;
+using NBB.Messaging.Abstractions;
 
-namespace Checkout.Api.Decorators
+namespace CheckoutApi.Decorators
 {
     public class MessageBusPublisherDecorator : IMessageBusPublisher
     {
