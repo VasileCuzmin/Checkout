@@ -8,7 +8,7 @@ using static Checkout.Domain.Tests.BasketAggregateTests.Setup;
 
 namespace Checkout.Domain.Tests.BasketAggregateTests
 {
-    public class Basket_New_Tests
+    public class BasketNewTests
     {
         [Fact]
         public void CreateNewBasket_IdIsNull_ThrowsException()

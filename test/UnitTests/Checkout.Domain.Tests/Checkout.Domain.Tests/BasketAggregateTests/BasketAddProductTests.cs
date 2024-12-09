@@ -1,15 +1,11 @@
-﻿using Checkout.Domain.BasketAggregate;
-using Checkout.Domain.DomainEvents;
-using FluentAssertions;
-using NBB.Domain;
+﻿using NBB.Domain;
 using System;
-using System.Linq;
 using Xunit;
 using static Checkout.Domain.Tests.BasketAggregateTests.Setup;
 
 namespace Checkout.Domain.Tests.BasketAggregateTests
 {
-    public class Basket_AddProduct_Tests
+    public class BasketAddProductTests
     {
         [Fact]
         public void AddProduct_StatusClosed_ThrowsDomainException()
