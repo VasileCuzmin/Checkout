@@ -34,7 +34,7 @@ namespace Checkout.Application.Queries
         public class QueryHandler : IRequestHandler<Query, Model>
         {
             //for the sake of the homework, let's read the baskets from the event store although this could lead to poor performance.
-            //Instead is recommended to do a real model where you can get the info from.
+            //Instead is recommended to have a real model where you can get the info from.
 
             private readonly IEventSourcedRepository<Basket> _basketRepository;
 

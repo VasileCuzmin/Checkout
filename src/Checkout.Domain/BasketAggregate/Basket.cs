@@ -10,7 +10,7 @@ namespace Checkout.Domain.BasketAggregate
     {
         public BasketId BasketId { get; private set; }
         public User User { get; private set; }
-        private HashSet<Product> _products = new HashSet<Product>();
+        private readonly HashSet<Product> _products = new HashSet<Product>();
         public IReadonlyHashSet<Product> Products => _products.AsReadOnly();
         public decimal TotalNet { get; private set; }
         public decimal TotalGross

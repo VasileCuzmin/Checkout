@@ -20,6 +20,14 @@ namespace CheckoutApi.Controllers
             _mediator = mediator;
         }
 
+        [HttpGet("{customerName}")]
+        public async Task<IActionResult> Get([FromRoute] GetBasketByCustomerName.Query query)
+        {
+            var result = await _mediator.Send(query);
+            return Ok(result);
+        }
+
+
         [HttpGet("{basketId}")]
         public async Task<IActionResult> Get([FromRoute] GetBasket.Query query)
         {

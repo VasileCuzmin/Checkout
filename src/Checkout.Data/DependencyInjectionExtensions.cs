@@ -15,8 +15,7 @@ namespace Checkout.Data
         public static void AddCheckoutDataAccess(this IServiceCollection services)
         {
             services.AddEntityFrameworkDataAccess();
-            services.AddEventSourcingDataAccess((sp, builder) =>
-                         builder.Options.DefaultSnapshotVersionFrequency = 10)
+            services.AddEventSourcingDataAccess()
                     .AddEventSourcedRepository<Basket>();
 
             services
