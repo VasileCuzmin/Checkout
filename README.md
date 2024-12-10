@@ -7,9 +7,9 @@
 
 I choose to go with some DDD practices like aggregates and entities, invariants, factories and event sourcing. I used building blocks(abstractions) from https://github.com/VCuzmin/nbb.
 
-1. Setup your connetion to the DB in connection string from Checkout.Migrations, Checnkout.Api and Checkout.Worker
+1. Setup your connetion to the DB in connection string from Checkout.Migrations, Checkout.Api and Checkout.Worker
 2. Run the migrations project
-3. Run these commands for setting up the nats streaming server (make sunre to have Docker For Desktop locally!)
+3. Run these commands for setting up the nats streaming server (make sure to have Docker For Desktop locally!)
 
       ```
       docker pull nats-streaming:latest
